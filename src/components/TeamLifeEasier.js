@@ -1,59 +1,10 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { CheckIcon } from "@heroicons/react/outline";
 
-const pricing = {
-  tiers: [
-    {
-      title: "Freelancer",
-      price: 24,
-      frequency: "/month",
-      description: "The essentials to provide your best work for clients.",
-      features: [
-        "5 products",
-        "Up to 1,000 subscribers",
-        "Basic analytics",
-        "48-hour support response time",
-      ],
-      cta: "Monthly billing",
-      mostPopular: false,
-    },
-    {
-      title: "Startup",
-      price: 32,
-      frequency: "/month",
-      description: "A plan that scales with your rapidly growing business.",
-      features: [
-        "25 products",
-        "Up to 10,000 subscribers",
-        "Advanced analytics",
-        "24-hour support response time",
-        "Marketing automations",
-      ],
-      cta: "Monthly billing",
-      mostPopular: true,
-    },
-    {
-      title: "Enterprise",
-      price: 48,
-      frequency: "/month",
-      description: "Dedicated support and infrastructure for your company.",
-      features: [
-        "Unlimited products",
-        "Unlimited subscribers",
-        "Advanced analytics",
-        "1-hour, dedicated support response time",
-        "Marketing automations",
-        "Custom integrations",
-      ],
-      cta: "Monthly billing",
-      mostPopular: false,
-    },
-  ],
-};
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+import Time from "../assets/images/back-in-time.png"
+import Loop from "../assets/images/process.png"
+import Access from "../assets/images/access-control.png"
+import Group from "../assets/images/group.png"
 
 export default function TeamLifeEasier() {
   return (
@@ -67,7 +18,7 @@ export default function TeamLifeEasier() {
           <div className="grid aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 md:justify-items-center text-center">
             <img
               className="h-8 w-auto sm:h-10"
-              src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+              src={Group}
               alt=""
             />
             <p className="mt-6 text-xl font-medium green-text font-bold  mt-10">
@@ -79,7 +30,7 @@ export default function TeamLifeEasier() {
           <div className="grid aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 md:justify-items-center text-center">
             <img
               className="h-8 w-auto sm:h-10 "
-              src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+              src={Time}
               alt=""
             />
             <p className="mt-6 text-xl font-medium green-text font-bold mt-10">
@@ -91,7 +42,7 @@ export default function TeamLifeEasier() {
           <div className=" grid aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 md:justify-items-center text-center">
             <img
               className="h-8 w-auto sm:h-10"
-              src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+              src={Access}
               alt=""
             />
             <p className="mt-6 text-xl font-medium green-text font-bold mt-10">
@@ -103,7 +54,7 @@ export default function TeamLifeEasier() {
           <div className="grid aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 md:justify-items-center text-center">
             <img
               className="h-8 w-auto sm:h-10"
-              src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+              src={Loop}
               alt=""
             />
             <p className="mt-6 text-xl font-medium green-text font-bold mt-10">
