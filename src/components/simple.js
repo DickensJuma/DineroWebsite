@@ -4,7 +4,7 @@ import simple from '../assets/images/simple.png'; // Tell webpack this JS file u
 
 export default function Simple() {
     return (
-      <div className="relative py-16 bg-white mx-40">
+      <div className="relative py-16 bg-white lg:mx-40 md:mx-20 sm:mx-10">
         <div className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block" aria-hidden="true" />
         <div className="max-w-7xl mx-auto bg-indigo-600 lg:bg-transparent lg:px-8 ">
           <div className="lg:grid lg:grid-cols-12">

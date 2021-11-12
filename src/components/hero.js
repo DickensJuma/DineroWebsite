@@ -106,20 +106,20 @@ export default function Hero() {
       
       <div class="grid grid-cols-3 gap-4">
 
-        <div class="relative top-20 pl-10 ml-10  ">
+        <div class="relative lg:top-20 md:top-0 pl-10 ml-10  ">
           <div className="flex justify-start ">
               <a href="#">
                 <span className="sr-only">Get Paid</span>
                 <img
-                  className="h-8 w-auto sm:h-10"
+                  className="h-10 w-auto sm:h-10 "
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                   alt=""
                 />
               </a>
             </div>
   </div>
-        <div class="col-span-2 pr-28">
-        <Popover className="relative bg-white shadow rounded-full top-10 z-10">
+        <div class="col-span-2 lg:pr-28 md:pr-10">
+        <Popover className="relative bg-white shadow rounded-full lg:top-10 md:top-0 z-10">
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           

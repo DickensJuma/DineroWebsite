@@ -216,7 +216,7 @@ function classNames(...classes) {
 */
 export default function Cta() {
   return (
-    <div className="body pt-16 lg:py-24 mx-40">
+    <div className="body pt-16 lg:py-24 lg:mx-40 md:mx-20 sm:mx-10">
       <div className="pb-16 green lg:pb-0 lg:z-10 lg:relative rounded-md">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8 ">
         <div className="mt-12 lg:m-0 lg:col-span-2 lg:pl-8 rounded-md">
