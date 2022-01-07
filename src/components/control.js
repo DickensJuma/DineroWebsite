@@ -220,10 +220,10 @@ export default function Control() {
   return (
     <div className="body pt-16 lg:py-24 lg:mx-40 md:mx-20 sm:mx-10">
       <div className="pb-16 purple lg:pb-0 lg:z-10 lg:relative rounded-md">
-        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2   lg:gap-8">
+        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2  sm:mx-4 lg:gap-8">
           <div className="relative lg:-my-8">
-            <div aria-hidden="true" className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />
-            <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
+            <div aria-hidden="true" className="absolute inset-x-0 top-0 lg:h-1/2 sm:h-full bg-white lg:hidden" />
+            <div className="mx-auto max-w-md  sm:max-w-sm lg:p-4 sm:p-12 lg:p-0 lg:h-full">
               <div className="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
@@ -237,14 +237,14 @@ export default function Control() {
             <div className="grid justify-items-center mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:px-0 lg:py-20 lg:max-w-none ">
               <blockquote>
                 <div className="">
-                 <h2 className="text-2xl font-extrabold text-dark ">​You have control who can access credit</h2>
+                 <h2 className="text-2xl font-extrabold text-dark  ">​You have control who can access credit</h2>
                   <p className="mt-6 text-base font-small text-dark">
                   ​Manage employee withdrawal limits, view reports at any time 
                   </p>
-                  <div className=" w-1/3  sm:mt-0 sm:ml-3">
+                  <div className=" lg:w-1/3 sm:w-1/2 sm:mt-0 sm:ml-3">
                 <a
                   href="#"
-                  className=" flex items-center justify-center shadow  mt-10 border border-transparent text-base font-medium rounded-full text-white blue hover:green  md:text-sm py-2 "
+                  className=" flex items-center justify-center shadow  mt-10 border border-transparent text-base font-medium rounded-full text-white blue hover:green  md:text-sm py-2  "
                 >
                   Try for Free
                 </a>

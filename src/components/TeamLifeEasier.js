@@ -12,7 +12,7 @@ export default function TeamLifeEasier() {
       <h2 className="text-2xl font-extrabold text-dark-900 sm:text-2xl sm:leading-none sm:tracking-tight lg:text-4xl text-center">
         ​How Do We Make Your <br/>Team Life Easier? 
       </h2>
-<div className="lg:px-28 md:px-10">
+<div className="lg:px-28 md:px-10 sm:mx-16">
 <div className="mt-24 space-y-12  lg:space-y-0 lg:grid lg:grid-cols-4 lg:gap-x-16 md:justify-items-center">
         <div className="relative py-10 px-4 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col md:justify-items-center">
           <div className="grid aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 md:justify-items-center justify-items-center sm:justify-items-center text-center">
