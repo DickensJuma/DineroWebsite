@@ -10,6 +10,7 @@ import Cta from "./cta";
 import TeamLifeEasier from "./TeamLifeEasier";
 import Team from "./team"
 import Testimony from "./testimony";
+import Tryusout from "./tryusout";
 
 function Index() {
     return (
@@ -23,6 +24,7 @@ function Index() {
             <Brands />
             <Testimony/>
             <Blog />
+            <Tryusout/>
             <Footer/>
             </>
     );

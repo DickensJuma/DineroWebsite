@@ -1,11 +1,14 @@
 import James from '../assets/images/james.jpeg'
 export default function Testimony() {
   return (
-    <div className="py-12 green overflow-hidden md:py-20 lg:py-24">
+    <>
+   
+      <div className="py-8 green overflow-hidden md:py-12 lg:py-12">
+     
       <h2 className="text-2xl font-extrabold text-white sm:text-2xl sm:leading-none sm:tracking-tight lg:text-4xl text-center mb-5">
         Hear It from Our Customers
       </h2>
-      <div className="carousel relative rounded-full relative overflow-hidden shadow-xl mx-40 mt-5">
+      <div className="carousel relative rounded-full relative overflow-hidden shadow-xl lg:mx-40 md:mx-10 mt-5">
         <div className="carousel-inner relative overflow-hidden w-full ">
           <input
             className="carousel-open"
@@ -231,6 +234,7 @@ export default function Testimony() {
           </ol>
         </div>
       </div>
-    </div>
+      </div>
+      </>
   );
 }

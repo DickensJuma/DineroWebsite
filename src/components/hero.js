@@ -2,6 +2,8 @@
 import { Fragment } from "react";
 import React from 'react';
 import hero from '../assets/images/hero.png';
+import logo from '../assets/images/logo.png';
+
 import { Popover, Transition } from "@headlessui/react";
 import {
   BookmarkAltIcon,
@@ -112,7 +114,7 @@ export default function Hero() {
                 <span className="sr-only">Get Paid</span>
                 <img
                   className="h-10 w-auto sm:h-10 "
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                  src={logo}
                   alt=""
                 />
               </a>

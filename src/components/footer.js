@@ -1,4 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
+import logo from '../assets/images/logo.png';
+
 const navigation = {
     solutions: [
       { name: 'Marketing', href: '#' },
@@ -112,7 +114,7 @@ const navigation = {
             <div className="space-y-8 xl:col-span-1">
               <img
                 className="h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg"
+                src={logo}
                 alt="Company name"
               />
               <p className="text-white text-base">
