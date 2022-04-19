@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/DineroWebsite/static/css/main.dbd75fee.chunk.css",
-    "main.js": "/DineroWebsite/static/js/main.679290f6.chunk.js",
-    "main.js.map": "/DineroWebsite/static/js/main.679290f6.chunk.js.map",
+    "main.css": "/DineroWebsite/static/css/main.aa6ecda0.chunk.css",
+    "main.js": "/DineroWebsite/static/js/main.575a0d97.chunk.js",
+    "main.js.map": "/DineroWebsite/static/js/main.575a0d97.chunk.js.map",
     "runtime-main.js": "/DineroWebsite/static/js/runtime-main.218ddca9.js",
     "runtime-main.js.map": "/DineroWebsite/static/js/runtime-main.218ddca9.js.map",
     "static/js/2.00b9b2f4.chunk.js": "/DineroWebsite/static/js/2.00b9b2f4.chunk.js",
@@ -10,18 +10,17 @@
     "static/js/3.fb2ff302.chunk.js": "/DineroWebsite/static/js/3.fb2ff302.chunk.js",
     "static/js/3.fb2ff302.chunk.js.map": "/DineroWebsite/static/js/3.fb2ff302.chunk.js.map",
     "index.html": "/DineroWebsite/index.html",
-    "static/css/main.dbd75fee.chunk.css.map": "/DineroWebsite/static/css/main.dbd75fee.chunk.css.map",
+    "static/css/main.aa6ecda0.chunk.css.map": "/DineroWebsite/static/css/main.aa6ecda0.chunk.css.map",
     "static/js/2.00b9b2f4.chunk.js.LICENSE.txt": "/DineroWebsite/static/js/2.00b9b2f4.chunk.js.LICENSE.txt",
     "static/media/access-control.5897b5ea.png": "/DineroWebsite/static/media/access-control.5897b5ea.png",
     "static/media/back-in-time.483675bf.png": "/DineroWebsite/static/media/back-in-time.483675bf.png",
+    "static/media/caret-img.149dce0a.png": "/DineroWebsite/static/media/caret-img.149dce0a.png",
     "static/media/control.11f7ac82.png": "/DineroWebsite/static/media/control.11f7ac82.png",
     "static/media/group.ad7b9144.png": "/DineroWebsite/static/media/group.ad7b9144.png",
     "static/media/hero.b3d6b1c0.png": "/DineroWebsite/static/media/hero.b3d6b1c0.png",
     "static/media/james.d169f522.jpeg": "/DineroWebsite/static/media/james.d169f522.jpeg",
     "static/media/lakehub.87a44060.png": "/DineroWebsite/static/media/lakehub.87a44060.png",
-    "static/media/logo.b5acdf8c.png": "/DineroWebsite/static/media/logo.b5acdf8c.png",
     "static/media/process.46c449ba.png": "/DineroWebsite/static/media/process.46c449ba.png",
-    "static/media/purchase.26c84946.png": "/DineroWebsite/static/media/purchase.26c84946.png",
     "static/media/simple.1474508f.png": "/DineroWebsite/static/media/simple.1474508f.png",
     "static/media/team.4edf1353.png": "/DineroWebsite/static/media/team.4edf1353.png",
     "static/media/tryusphoto.a0593cca.png": "/DineroWebsite/static/media/tryusphoto.a0593cca.png"
@@ -29,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.218ddca9.js",
     "static/js/2.00b9b2f4.chunk.js",
-    "static/css/main.dbd75fee.chunk.css",
-    "static/js/main.679290f6.chunk.js"
+    "static/css/main.aa6ecda0.chunk.css",
+    "static/js/main.575a0d97.chunk.js"
   ]
 }
